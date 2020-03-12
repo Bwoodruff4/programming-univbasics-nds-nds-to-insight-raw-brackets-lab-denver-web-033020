@@ -26,19 +26,20 @@ def directors_totals(nds)
     director_name = nds[director_index][:name]
     
     #pp director_name
+    #pp director_index
+    #pp director_name
     
+    total=0
+    inner_index=0
     
-    pp director_index
-    pp director_name
-    
-    #total=0
-    #inner_index=0
-    
-    #while inner_index < nds[director_index][:movies].length do
+    while inner_index < nds[director_index][:movies].length do
     #  total += nds[director_index][inner_index][:worldwide_gross]
-    #  inner_index += 1
       
-    #end
+       pp inner_index
+      
+      inner_index += 1
+      
+    end
     
     #pp total
     
