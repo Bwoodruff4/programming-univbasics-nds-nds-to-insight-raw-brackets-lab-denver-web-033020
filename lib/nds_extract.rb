@@ -22,12 +22,14 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   
   hash = {}
-  index = 0
+  director_index = 0
   
   while index<nds.length do
-    director_name = nds[index]
+    director_name = nds[director_index]
     hash[director_name[:name]]=
     
+    total=0
+    mo
     while
   
 end
