@@ -33,7 +33,7 @@ def directors_totals(nds)
     total=0
     inner_index=0
     
-    while inner_index < nds[director_index][inner_index].length do
+    while inner_index < nds[director_index][inner_index].size do
       total += nds[director_index][inner_index][:worldwide_gross]
       
       #pp inner_index
