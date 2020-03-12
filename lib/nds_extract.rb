@@ -22,6 +22,7 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   
   hash = {}
+  index = 0
   
   
 end
