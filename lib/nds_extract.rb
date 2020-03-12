@@ -30,19 +30,19 @@ def directors_totals(nds)
     
     pp director_index
     
-    total=0
-    inner_index=0
+    #total=0
+    #inner_index=0
     
-    while inner_index < nds[director_index][:movies].length do
-      total += nds[director_index][inner_index][:worldwide_gross]
-      inner_index += 1
+    #while inner_index < nds[director_index][:movies].length do
+    #  total += nds[director_index][inner_index][:worldwide_gross]
+    #  inner_index += 1
       
-    end
+    #end
     
-    pp total
+    #pp total
     
-    hash[director_name[:name]] = total
-    =
+    #hash[director_name[:name]] = total
+    
     director_index += 1
     
   end
