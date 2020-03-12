@@ -29,7 +29,8 @@ def directors_totals(nds)
     hash[director_name[:name]]=
     
     total=0
-    mo
-    while
+    index
+    
+    while 
   
 end
