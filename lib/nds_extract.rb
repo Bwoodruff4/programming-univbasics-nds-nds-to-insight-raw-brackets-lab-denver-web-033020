@@ -1,7 +1,7 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
-pp directors_database
+#pp directors_database
 
 def directors_totals(nds)
   # Remember, it's always OK to pretty print what you get *in* to make sure
@@ -38,13 +38,15 @@ def directors_totals(nds)
       
       #pp inner_index
       
+      pp total
+      
       inner_index += 1
       
     end
     
     pp total
     
-    hash[director_name[:name]] = total
+    hash[director_name] = total
     
     director_index += 1
     
