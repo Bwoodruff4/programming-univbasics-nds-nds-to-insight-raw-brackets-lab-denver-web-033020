@@ -21,7 +21,7 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   
-  hash = {}
+  hash = { }
   director_index = 0
   
   while director_index<nds.length do
