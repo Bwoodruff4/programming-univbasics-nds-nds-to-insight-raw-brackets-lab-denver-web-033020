@@ -24,5 +24,6 @@ def directors_totals(nds)
   hash = {}
   index = 0
   
+  while index<nds.length 
   
 end
