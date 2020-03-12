@@ -29,6 +29,7 @@ def directors_totals(nds)
     
     
     pp director_index
+    pp director_name
     
     #total=0
     #inner_index=0
