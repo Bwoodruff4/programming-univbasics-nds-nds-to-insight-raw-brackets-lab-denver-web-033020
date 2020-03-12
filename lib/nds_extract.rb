@@ -24,13 +24,18 @@ def directors_totals(nds)
   hash = {}
   director_index = 0
   
-  while index<nds.length do
+  while director_index<nds.length do
     director_name = nds[director_index]
-    hash[director_name[:name]]=
+    
     
     total=0
-    index=0
+    inner_index=0
     
-    while index < 
+    while inner_index < nds[director_index][:movies].length
+    
+    end
+  end
   
+    hash[director_name[:name]]=
+    
 end
