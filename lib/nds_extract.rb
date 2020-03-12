@@ -26,7 +26,7 @@ def directors_totals(nds)
   while director_index<nds.length do
     director = nds[director_index]
     
-    #pp director_name
+    
     #pp director_index
     #pp director_name
     
@@ -46,7 +46,7 @@ def directors_totals(nds)
     
     pp total
     
-    hash[director_name[:name]] = total
+    hash[director[:name]] = total
     
     director_index += 1
     
