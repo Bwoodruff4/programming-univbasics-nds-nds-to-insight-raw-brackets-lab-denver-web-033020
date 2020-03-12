@@ -26,6 +26,6 @@ def directors_totals(nds)
   
   while index<nds.length do
     director_name = nds[index]
-    
+    hash[director_name]
   
 end
