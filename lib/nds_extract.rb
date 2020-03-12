@@ -44,7 +44,7 @@ def directors_totals(nds)
       
     end
     
-    pp total
+    #pp total
     
     hash[director[:name]] = total
     
