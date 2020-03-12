@@ -31,9 +31,9 @@ def directors_totals(nds)
     #pp director_name
     
     total=0
-    inner_index=0
+    #inner_index=0
     
-    while inner_index < nds[director_index][:movies][inner_index].length do
+    while inner_index < nds[director_index+1][:movies][inner_index].length do
       total += nds[director_index][inner_index][:movies][:worldwide_gross]
       
       #pp inner_index
