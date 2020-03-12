@@ -34,7 +34,10 @@ def directors_totals(nds)
     while inner_index < nds[director_index][:movies].length do
       total += nds[director_index][inner_index][:worldwide_gross]
       inner_index += 1
+      
     end
+    
+    pp total
     
     hash[director_name[:name]] = total
     
