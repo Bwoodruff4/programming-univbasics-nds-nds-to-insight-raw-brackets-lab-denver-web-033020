@@ -36,12 +36,13 @@ def directors_totals(nds)
       inner_index += 1
     end
     
-    hash[director_name[:name]]= total
+    hash[director_name[:name]] = total
     
     director_index += 1
     
   end
   
+  pp hash
   return hash
   
 end
